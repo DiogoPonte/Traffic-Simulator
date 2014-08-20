@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF335293199BFA42009F3257 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF335292199BFA42009F3257 /* main.cpp */; };
+		BF335293199BFA42009F3257 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF335292199BFA42009F3257 /* main.cc */; };
+		BF3352B4199BFB49009F3257 /* callbacks.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF33529E199BFB49009F3257 /* callbacks.cc */; };
+		BF3352B5199BFB49009F3257 /* FreewayWindow.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF33529F199BFB49009F3257 /* FreewayWindow.cc */; };
+		BF3352B6199BFB49009F3257 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352A1199BFB49009F3257 /* main.cc */; };
+		BF3352B7199BFB49009F3257 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = BF3352A2199BFB49009F3257 /* Makefile */; };
+		BF3352B8199BFB49009F3257 /* maniac.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352A3199BFB49009F3257 /* maniac.cc */; };
+		BF3352B9199BFB49009F3257 /* police.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352A5199BFB49009F3257 /* police.cc */; };
+		BF3352BA199BFB49009F3257 /* sports.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352A8199BFB49009F3257 /* sports.cc */; };
+		BF3352BB199BFB49009F3257 /* traffic.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352AA199BFB49009F3257 /* traffic.cc */; };
+		BF3352BC199BFB49009F3257 /* truck.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352AE199BFB49009F3257 /* truck.cc */; };
+		BF3352BD199BFB49009F3257 /* vehicle_list.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352B0199BFB49009F3257 /* vehicle_list.cc */; };
+		BF3352BE199BFB49009F3257 /* vehicle.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF3352B2199BFB49009F3257 /* vehicle.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +35,34 @@
 
 /* Begin PBXFileReference section */
 		BF33528F199BFA42009F3257 /* Traffic Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Traffic Simulator"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF335292199BFA42009F3257 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF335292199BFA42009F3257 /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		BF335299199BFB49009F3257 /* about.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = about.h; sourceTree = "<group>"; };
+		BF33529A199BFB49009F3257 /* arrow_left.bitmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow_left.bitmap; sourceTree = "<group>"; };
+		BF33529B199BFB49009F3257 /* arrow_over.bitmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow_over.bitmap; sourceTree = "<group>"; };
+		BF33529C199BFB49009F3257 /* arrow_right.bitmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow_right.bitmap; sourceTree = "<group>"; };
+		BF33529D199BFB49009F3257 /* arrow_up.bitmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow_up.bitmap; sourceTree = "<group>"; };
+		BF33529E199BFB49009F3257 /* callbacks.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = callbacks.cc; sourceTree = "<group>"; };
+		BF33529F199BFB49009F3257 /* FreewayWindow.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FreewayWindow.cc; sourceTree = "<group>"; };
+		BF3352A0199BFB49009F3257 /* FreewayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreewayWindow.h; sourceTree = "<group>"; };
+		BF3352A1199BFB49009F3257 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		BF3352A2199BFB49009F3257 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BF3352A3199BFB49009F3257 /* maniac.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maniac.cc; sourceTree = "<group>"; };
+		BF3352A4199BFB49009F3257 /* maniac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maniac.h; sourceTree = "<group>"; };
+		BF3352A5199BFB49009F3257 /* police.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = police.cc; sourceTree = "<group>"; };
+		BF3352A6199BFB49009F3257 /* police.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = police.h; sourceTree = "<group>"; };
+		BF3352A7199BFB49009F3257 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		BF3352A8199BFB49009F3257 /* sports.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sports.cc; sourceTree = "<group>"; };
+		BF3352A9199BFB49009F3257 /* sports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sports.h; sourceTree = "<group>"; };
+		BF3352AA199BFB49009F3257 /* traffic.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = traffic.cc; sourceTree = "<group>"; };
+		BF3352AB199BFB49009F3257 /* traffic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traffic.h; sourceTree = "<group>"; };
+		BF3352AC199BFB49009F3257 /* traffic.icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traffic.icon; sourceTree = "<group>"; };
+		BF3352AD199BFB49009F3257 /* traffic.mask */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = traffic.mask; sourceTree = "<group>"; };
+		BF3352AE199BFB49009F3257 /* truck.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = truck.cc; sourceTree = "<group>"; };
+		BF3352AF199BFB49009F3257 /* truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = truck.h; sourceTree = "<group>"; };
+		BF3352B0199BFB49009F3257 /* vehicle_list.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vehicle_list.cc; sourceTree = "<group>"; };
+		BF3352B1199BFB49009F3257 /* vehicle_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle_list.h; sourceTree = "<group>"; };
+		BF3352B2199BFB49009F3257 /* vehicle.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vehicle.cc; sourceTree = "<group>"; };
+		BF3352B3199BFB49009F3257 /* vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +95,34 @@
 		BF335291199BFA42009F3257 /* Traffic Simulator */ = {
 			isa = PBXGroup;
 			children = (
-				BF335292199BFA42009F3257 /* main.cpp */,
+				BF335299199BFB49009F3257 /* about.h */,
+				BF33529A199BFB49009F3257 /* arrow_left.bitmap */,
+				BF33529B199BFB49009F3257 /* arrow_over.bitmap */,
+				BF33529C199BFB49009F3257 /* arrow_right.bitmap */,
+				BF33529D199BFB49009F3257 /* arrow_up.bitmap */,
+				BF33529E199BFB49009F3257 /* callbacks.cc */,
+				BF33529F199BFB49009F3257 /* FreewayWindow.cc */,
+				BF3352A0199BFB49009F3257 /* FreewayWindow.h */,
+				BF3352A1199BFB49009F3257 /* main.cc */,
+				BF3352A2199BFB49009F3257 /* Makefile */,
+				BF3352A3199BFB49009F3257 /* maniac.cc */,
+				BF3352A4199BFB49009F3257 /* maniac.h */,
+				BF3352A5199BFB49009F3257 /* police.cc */,
+				BF3352A6199BFB49009F3257 /* police.h */,
+				BF3352A7199BFB49009F3257 /* README.txt */,
+				BF3352A8199BFB49009F3257 /* sports.cc */,
+				BF3352A9199BFB49009F3257 /* sports.h */,
+				BF3352AA199BFB49009F3257 /* traffic.cc */,
+				BF3352AB199BFB49009F3257 /* traffic.h */,
+				BF3352AC199BFB49009F3257 /* traffic.icon */,
+				BF3352AD199BFB49009F3257 /* traffic.mask */,
+				BF3352AE199BFB49009F3257 /* truck.cc */,
+				BF3352AF199BFB49009F3257 /* truck.h */,
+				BF3352B0199BFB49009F3257 /* vehicle_list.cc */,
+				BF3352B1199BFB49009F3257 /* vehicle_list.h */,
+				BF3352B2199BFB49009F3257 /* vehicle.cc */,
+				BF3352B3199BFB49009F3257 /* vehicle.h */,
+				BF335292199BFA42009F3257 /* main.cc */,
 			);
 			path = "Traffic Simulator";
 			sourceTree = "<group>";
@@ -118,7 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF335293199BFA42009F3257 /* main.cpp in Sources */,
+				BF3352BA199BFB49009F3257 /* sports.cc in Sources */,
+				BF3352B8199BFB49009F3257 /* maniac.cc in Sources */,
+				BF3352B7199BFB49009F3257 /* Makefile in Sources */,
+				BF3352B6199BFB49009F3257 /* main.cc in Sources */,
+				BF3352BD199BFB49009F3257 /* vehicle_list.cc in Sources */,
+				BF3352B9199BFB49009F3257 /* police.cc in Sources */,
+				BF3352BB199BFB49009F3257 /* traffic.cc in Sources */,
+				BF3352B4199BFB49009F3257 /* callbacks.cc in Sources */,
+				BF3352BC199BFB49009F3257 /* truck.cc in Sources */,
+				BF3352B5199BFB49009F3257 /* FreewayWindow.cc in Sources */,
+				BF3352BE199BFB49009F3257 /* vehicle.cc in Sources */,
+				BF335293199BFA42009F3257 /* main.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +278,7 @@
 		BF335297199BFA42009F3257 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +286,7 @@
 		BF335298199BFA42009F3257 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
